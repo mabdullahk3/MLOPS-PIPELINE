@@ -2,8 +2,7 @@ name: CI Testing Pipeline
 on:
   push:
     branches:
-      - Testing
-      - main
+      - testing
 jobs:
   build-test:
     runs-on: ubuntu-latest
