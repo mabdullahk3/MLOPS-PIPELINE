@@ -2,8 +2,7 @@ name: CI Dev Pipeline
 on:
   push:
     branches:
-      - Dev
-      - main
+      - dev
 jobs:
   build-test:
     runs-on: ubuntu-latest
